@@ -1,0 +1,24 @@
+<html>
+<head>
+    <title>Webpage in PHP</title>
+</head>
+<body>
+ <div style="line-height:40px;">
+ <div>
+	<form action="index.php" method="post">
+		<p>Author:<br><input type="text" name="author" maxlength="20" size="25" padding: 5px;><br></p>
+		<p>Description of article:<br><input type="text" name="description_of_article" maxlength="20" size="25"><br></p>
+		<p>Year of publication:<br><input type="text" name="year_of_publication" maxlength="20" size="25"><br></p>
+		<p>Number of pages:<br><input type="text" name="number_of_pages" maxlength="20" size="25"><br></p>
+		<p>File size:<br><input type="text" name="file_size" maxlength="20" size="25"><br></p>
+		
+		<p><input type='submit' value='Submit'></p>
+	</form><br>
+	<form enctype="multipart/form-date" action=savefile.php"method="post">
+	<input type="hidden name=MAX_FILE_SIZE" value="1000"><br>
+	Send this file: <input name="userfile" type="file"><br>
+	<input type="submit" Value=Send File">
+	</form>
+</div>
+</body>
+<html>
